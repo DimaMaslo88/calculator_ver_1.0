@@ -16,7 +16,8 @@ export const CalculatorTable = () => {
             setCount('0')
         } else if (count === '0' && num !== '.') {
             setCount(num)
-        } else if (num === '=') {
+        }
+        else if (num === '=' && count.length >1) {
             setResult(eval(count).toString())
         } else {
            setCount(count+num)
@@ -45,10 +46,12 @@ export const CalculatorTable = () => {
             if (newRes) {
                 let res = JSON.parse(newRes)
                 setCount(res)
+                setResult(res)
             }
         } else if (symbol === 'MC') {
             localStorage.clear()
             setCount('0')
+            setResult(0)
         } else {
             return
         }
