@@ -1,0 +1,14 @@
+.inputContainer {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 5px;
+
+}
+
+.input {
+    border: skyblue 3px solid;
+    width: calc(100% - 10px);
+}

@@ -1,0 +1,19 @@
+.CalculatorContainer {
+    background-color: grey;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 5px 5px 6px 1px rgb(0, 0, 0);
+    animation-name: calculator ;
+    animation-duration: 4s;
+}
+
+@keyframes calculator {
+    0% {
+       opacity:0.1;
+    }
+    100% {
+      opacity: 0.9;
+    }
+}

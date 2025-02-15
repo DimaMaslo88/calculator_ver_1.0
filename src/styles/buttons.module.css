@@ -1,0 +1,61 @@
+.buttonsContainer {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    /*grid-template-areas:*/
+    /*        "symbol symbol symbol"*/
+    /*        "symbol symbol symbol"*/
+    /*        "number number number "*/
+    /*        "number number number"*/
+    /*        "sign sign sign"*/
+    /*        "sign sign sign";*/
+    grid-gap: 10px;
+
+}
+.buttonsSign,.numberButtons{
+    border: none;
+
+}
+.symbolButtons,.buttonsSign,.numberButtons:hover{
+    cursor: pointer;
+
+}
+.symbolButtons,.buttonsSign{
+    border-radius: 5px;
+}
+.symbolButtons{
+    /*grid-area: symbol;*/
+    background-color:gray;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.symbolButtons:hover{
+    background-color: black;
+    opacity: 0.9;
+
+}
+.numberButtons{
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*grid-area: number;*/
+    background-color: skyblue;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.numberButtons:hover{
+    color: whitesmoke;
+    background-color: darkblue;
+    opacity: 0.7;
+}
+.buttonsSign{
+    /*grid-area: sign;*/
+    font-size: 16px;
+    font-weight: bold;
+    background-color: darkorange;
+}
+.buttonsSign:hover{
+    background-color: orange;
+    opacity: 0.7;
+}
