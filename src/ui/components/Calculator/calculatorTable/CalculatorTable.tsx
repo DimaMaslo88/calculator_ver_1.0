@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent, useEffect} from 'react';
+import React, {useState} from 'react';
 import {ButtonNumbers} from "ui/components/Calculator/calculatorTable/buttons/buttonNumbers/ButtonNumbers";
 import style from 'styles/input.module.css'
 

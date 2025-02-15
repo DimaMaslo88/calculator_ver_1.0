@@ -13,6 +13,7 @@
 }
 .buttonsSign,.numberButtons{
     border: none;
+    box-shadow: 0 2px 0 black;
 
 }
 .symbolButtons,.buttonsSign,.numberButtons:hover{

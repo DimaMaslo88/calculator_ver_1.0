@@ -1,4 +1,4 @@
-import React,{MouseEvent} from 'react';
+import React from 'react';
 import style from 'styles/buttons.module.css'
 import {buttonsArray, signs, specialButtons} from "state/store";
 import {universalSymbolsType} from "types/types";

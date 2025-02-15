@@ -11,4 +11,5 @@
 .input {
     border: skyblue 3px solid;
     width: calc(100% - 10px);
+    font-weight: bolder;
 }
